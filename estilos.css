@@ -1,0 +1,148 @@
+/* Fuente e resets */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #004aad;
+    color: #fff;
+    padding: 30px 0 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #c1d1f7;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #c1d1f7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #ffcc00;
+}
+
+/* Main sections */
+section {
+    background: white;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 0.05);
+}
+
+section h2 {
+    color: #004aad;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+/* Proyectos */
+.proyectos-lista {
+    list-style: none;
+}
+
+.proyectos-lista li {
+    background: #e7ecff;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #004aad;
+}
+
+/* Materias */
+.materia {
+    margin-bottom: 15px;
+}
+
+.materia h3 {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+}
+
+.estado {
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    color: white;
+    width: fit-content;
+}
+
+.completada {
+    background-color: #28a745;
+    /* verde */
+}
+
+.en-curso {
+    background-color: #ffc107;
+    /* amarillo */
+}
+
+/* Contacto */
+#contacto p {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #444;
+}
+
+#contacto a {
+    color: #004aad;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contacto a:hover,
+#contacto a:focus {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    border-top: 1px solid #ddd;
+}
